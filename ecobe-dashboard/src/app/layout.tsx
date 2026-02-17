@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import Link from 'next/link'
 import './globals.css'
 import { Providers } from './providers'
 
@@ -34,15 +35,15 @@ export default function RootLayout({
                     </div>
                   </div>
                   <nav className="flex items-center space-x-6">
-                    <a href="/" className="text-sm text-slate-300 hover:text-white transition">
+                    <Link href="/" className="text-sm text-slate-300 hover:text-white transition">
                       Dashboard
-                    </a>
-                    <a href="/analytics" className="text-sm text-slate-300 hover:text-white transition">
+                    </Link>
+                    <Link href="/analytics" className="text-sm text-slate-300 hover:text-white transition">
                       Analytics
-                    </a>
-                    <a href="/dekes" className="text-sm text-slate-300 hover:text-white transition">
+                    </Link>
+                    <Link href="/dekes" className="text-sm text-slate-300 hover:text-white transition">
                       DEKES
-                    </a>
+                    </Link>
                   </nav>
                 </div>
               </div>

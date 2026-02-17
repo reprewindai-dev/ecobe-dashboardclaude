@@ -1,7 +1,6 @@
 'use client'
 
 import { useQuery } from '@tanstack/react-query'
-import { ecobeApi } from '@/lib/api'
 import { getCarbonLevel, getCarbonColor, getCarbonBgColor } from '@/types'
 import { TrendingUp, TrendingDown, Minus } from 'lucide-react'
 

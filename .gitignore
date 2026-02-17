@@ -1,0 +1,14 @@
+# dependencies
+/ecobe-dashboard/node_modules
+
+# next.js
+/ecobe-dashboard/.next
+
+# build outputs
+/ecobe-dashboard/tsconfig.tsbuildinfo
+
+# env
+/ecobe-dashboard/.env
+
+# logs
+*.log
